@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Confection WP Plugin\n"
+"Language: pt-br\n"
+
+#. Plugin Name of the plugin
+#: 
+msgid "Confection"
+msgstr "Confection"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: 
+msgid "https://confection.io"
+msgstr "https://confection.io"
+
+#. Description of the plugin
+#: 
+msgid "Confection is a privacy-first data management solution. Use this plugin to connect your Confection account to any WP site. Need an account? Set one up @ confection.io/register (It's free.)"
+msgstr "Confection é uma solução para gerenciamento de dados focado em privacidade. Use este plugin para conectar sua conta Confection com seu site WP. Precisa de uma conta? Crie uma em confection.io/register (É grátis.)"
+
+#. Author of the plugin
+#: 
+msgid "Confection, Inc."
+msgstr "Confection, Inc."
+
+#: inc/options.php:22
+msgid "Account ID"
+msgstr "ID da Conta"
+
+#: inc/options.php:24
+msgid "Your Account ID can be found found at Confection Dashboard at section Install Confection -> API Keys."
+msgstr "Seu ID da Conta pode ser encontrado no Painel do Confection na seção Install Confection -> API Keys."
+
+#: inc/options.php:29
+msgid "Write Key"
+msgstr "Chave de Escrita"
+
+#: inc/options.php:31
+msgid "Your Write Key can be found found at Confection Dashboard at section Install Confection -> API Keys."
+msgstr "Sua Chave de Escrita pode ser encontrada no Painel do Confection na seção Install Confection -> API Keys."
+
+#: inc/options.php:36
+msgid "Install Sitewide?"
+msgstr "Instalar em todo o site?"
+
+#: inc/options.php:38
+msgid "Check this to install Confection on all your site’s pages and posts. If you’d prefer to install Confection selectively, use the following shortcode:"
+msgstr "Marque esta opção para instalar Confection em todas as páginas e posts do seu site. Se você preferir instalar o Confection seletivamente, use o seguinte shortcode:"
+
+#: inc/options.php:38
+msgid " Add that to any page or post on which you want Confection to run.<br /><br />Note, some themes don't include the native WordPress footer function. If, after selecting the above checkbox and saving this page, Confection isn't active on your site's front end, this is probably the issue.<br /><br /> \n"
+"                Like many plugins, Confection's script files and functions are bound to the  <code>wp_footer</code> hook. If your theme doesn't include the WP footer function, and you want Confection to run sitewide, you'll need to add the above shortcode to some universal element. For example, you could add it to a text widget (Appearance > Widgets) and drag it into your sidebar, header, or footer widget area.<br /><br />Confused? Still having issues? Email us at <a href=\"mailto:get@confection.io\">get@confection.io</a>"
+msgstr " Adicione isso em qualquer página ou post onde você queira que o Confection execute.<br /><br />Note que, alguns temas não incluem a função padrão de rodapé do WordPress. Após selecionar a caixa acima e salvar essas configurações, se o Confection não estiver ativo na página frontal do seu site, esta provavelmente será a causa.<br /><br /> \n"
+"                Como muitos plugins, os arquivos dos scripts e funções do Confection são ligadas ao hook <code>wp_footer</code>. Se seu tema não inclui essa função e você quiser usar o Confection em todo o site, você precisará adicionar o shortcode acima em algum elemento universal. Por exemplo, você pode adicionar ele à um widget (Aparência > Widgets) em sua barra lateral, cabeçalho ou rodapé.<br /><br />Confuso? Ainda tendo problemas? Nos envie um email em <a href=\"mailto:get@confection.io\">get@confection.io</a>"
+
+#: inc/options.php:44
+msgid "Use WordPress Ajax?"
+msgstr "Usar o Ajax do WordPress?"
+
+#: inc/options.php:46
+msgid "Check this to use Confection Cable inside WordPress Ajax context. Keep this option unchecked if you are having performance issues. If you are using Security plugins like WordFence or if your Server blocks code execution in subfolders, you may need to check this box. This will also fix 403 errors. <strong>Default: Unchecked.</strong>"
+msgstr "Marque esta opção para usar o Confection Cable usando o Ajax do WordPress. Deixe esta opção desmarcada se estiver tendo problemas de desempenho. Se estiver usando um plugin de segurança como o WordFence ou se seu Servidor bloqueia execução de código em subpastas, você pode precisar ativar esta opção. <strong>Padrão: Desmarcado.</strong>"
+
+#: inc/options.php:51
+msgid "Inline Confection Script?"
+msgstr "Colocar o Script do Confection Inline?"
+
+#: inc/options.php:53
+msgid "Check this to use our script inlined. This can get better results in PageSpeed score and will make Confection trigger faster. <strong>Default: Checked.</strong>"
+msgstr "Marque esta opção para usar nosso script inline. Isso pode ajudar a ter resultados melhores no PageSpeed e fará o Confection ativar mais rapidamente. <strong>Padrão: Marcado.</strong>"
+
+#: inc/options.php:58
+msgid "Disable Confection Analytics?"
+msgstr "Desabilitar o Confection Analytics?"
+
+#: inc/options.php:60
+msgid "Check this to disable Confection Analytics system, which will track common analytics data like pageviews and present them on our Dashboard. If you preffer to disable it, just check this box. <strong>Default: Unchecked.</strong>"
+msgstr "Marque essa caixa para desabilitar o sistema de Analytics do Confection, que irá rastrear dados comuns de análise, como visualizações de páginas, e mostrar elas em nosso Painel. Se prefere desabilitar, basta marcar esta caixa. <strong>Padrão: Marcado.</strong>"
+
+#: inc/options.php:65
+msgid "Enable Community Integration?"
+msgstr "Habilitar a Integração Comunitária?"
+
+#: inc/options.php:67
+msgid "Check this to save UUID on user details and send user email to Confection when the user do a login in your site. <strong>Default: Unchecked.</strong>"
+msgstr "Marque essa caixa para salvar o UUID nos detalhes de cada usuário e enviar o email do usuário para o Confection quando o usuário fizer login neste site. <strong>Padrão: Desmarcado.</strong>"
+
+#: inc/options.php:72
+msgid "Enable WooCommerce Integration?"
+msgstr "Habilitar a Integração com WooCommerce?"
+
+#: inc/options.php:74
+msgid "Check this to save UUID on orders details and send order value event to Confection automatically when an order is completed. <strong>Default: Unchecked.</strong>"
+msgstr "Marque esta caixa para salvar o UUID nos detalhes do pedido e enviar o valor do pedido para o Confection automaticamente quando um pedido for completado. <strong>Padrão: Desmarcado.</strong>"
+
+#: inc/options.php:79
+msgid "Select Privacy Approach"
+msgstr "Selecione um Tipo de Privacidade"
+
+#: inc/options.php:82
+#: inc/options.php:95
+msgid "None"
+msgstr "Nenhum"
+
+#: inc/options.php:83
+msgid "GDPR"
+msgstr "GDPR"
+
+#: inc/options.php:84
+msgid "CCPA"
+msgstr "CCPA"
+
+#: inc/options.php:85
+msgid "LGPD"
+msgstr "LGPD"
+
+#: inc/options.php:87
+msgid "Confection allows users to collect, store, and distribute data in accordance with the data protection law of their choice. Make your selection below. <strong>Default: None.</strong>"
+msgstr "Confection permite que os usuários coletem, guardem e distribuam dados de acordo com a lei de proteção de dados de sua escolha. Faça sua escolha abaixo. <strong>Padrão: Nenhum.</strong>"
+
+#: inc/options.php:92
+msgid "Select Privacy Banner Position"
+msgstr "Selecione a Posição do Banner de Privacidade"
+
+#: inc/options.php:96
+msgid "Left"
+msgstr "Esquerda"
+
+#: inc/options.php:97
+msgid "Center"
+msgstr "Centro"
+
+#: inc/options.php:98
+msgid "Right"
+msgstr "Direita"
+
+#: inc/options.php:100
+msgid "Confection uses a compact, minimally-invasive banner to get user consent. Unlike other consent banners, ours only appears when necessary. Select the position of your banner below. <strong>Default: None.</strong>"
+msgstr "Confection usa um banner compacto e minimamente invasivo para conseguir o consentimento do usuário. Diferente de outros banners de consentimento, o nosso só aparece quando necessário. Selecione a posição do seu banner abaixo. <strong>Padrão: Nenhum.</strong>"
+
+#: inc/options.php:105
+msgid "Additional Initialization Code"
+msgstr "Código Adicional na Inicialização"
+
+#: inc/options.php:107
+msgid "<strong>For Advanced Users:</strong> If you want to execute custom javascript code during Confection initialization, you can put the code here."
+msgstr "<strong>Para Usuários Avançados:</strong> Se você quiser executar um código javascript personalizado durante a inicialização do Confection, basta colocar o código aqui."
+
+#: inc/options.php:112
+msgid "Import from Code Builder"
+msgstr "Importar do Construtor de Código"
+
+#: inc/options.php:188
+msgid "Saved!"
+msgstr "Salvo!"
+
+#: inc/options.php:212
+msgid "Import failed. Please copy and paste the entire code from the Code Builder."
+msgstr "Falha na importação. Por favor, copie e cole todo o código do Construtor de Código."
+
+#: inc/options.php:265
+msgid "Imported with success!"
+msgstr "Importado com sucesso!"
+
+#: inc/options.php:291
+msgid "Error while saving the Write Key on Cable file. Please try again, if this error keeps occuring, please use the option \"Use WordPress Ajax\"!"
+msgstr "Erro durante o salvamento da Chave de Escrita no Arquivo Cabo. Por favor, tente recarregar a página ou ative a opção \"Usar o Ajax do WordPress\"!"
+
+#: inc/options.php:305
+msgid "Your write key was not saved to your Cable File. Please try reloading the page, or activate the option \"Use WordPress Ajax\"!"
+msgstr "Sua Chave de Escrita não foi salva no Arquivo Cabo. Por favor, tente recarregar a página ou ative a opção \"Utilizar o Ajax do WordPress\"!"
+
+#: inc/options.php:311
+msgid "Confection Options"
+msgstr "Opções do Confection"
+
+#: inc/options.php:360
+msgid "Yes"
+msgstr "Sim"
+
+#: inc/options.php:415
+msgid "I don’t want Confection to get a user’s consent to collect his/her data."
+msgstr "Não quero que o Confection pegue o consentimento do usuário para coletar seus dados."
+
+#: inc/options.php:416
+msgid "Confection will collect all the data it can without waiting for user permission."
+msgstr "Confection irá coletar todos os dados que puder sem esperar por permissão do usuário."
+
+#: inc/options.php:419
+msgid "I want Confection to collect, store, and distribute user data in accordance with the European Union’s General Data Protection Regulation."
+msgstr "Quero que o Confection colete, guarde e distribua os dados de usuário de acordo com o Regulamento Geral de Proteção de Dados da União Europeia."
+
+#: inc/options.php:420
+#: inc/options.php:424
+msgid "Until Confection gets consent from a user, it will only collect non-personally-identifying information."
+msgstr "Até que o Confection receba o consentimento do usuário, ele só coletará informações que não sejam dados pessoais."
+
+#: inc/options.php:423
+msgid "I want Confection to collect, store, and distribute user data in accordance with the California Consumer Privacy Act."
+msgstr "Quero que o Confection colete, guarde e distribua os dados de usuário de acordo com a Lei de Privacidade do Consumidor da California."
+
+#: inc/options.php:427
+msgid "I want Confection to collect, store, and distribute user data in accordance with Brazil’s Lei Geral de Proteção de Dados Pessoais."
+msgstr "Quero que o Confection colete, guarde e distribua os dados de usuário de acordo com a Lei Geral de Proteção de Dados Pessoais do Brasil."
+
+#: inc/options.php:428
+msgid "Until Confection gets consent from a user, it will not collect any information, personally identifying or otherwise. Confection will get a second consent from the user when it begins collecting personally identifying information."
+msgstr "Até que o Confection receba o consentimento do usuário, ele não coletará qualquer informação, seja dado pessoal ou não. Confection irá pedir por um consentimento adicional do usuário quando começar a coletar dados pessoais."
+
+#: inc/options.php:444
+msgid "I will use other means to collect user consent."
+msgstr "Eu irei coletar o consentimento do usuário de outra forma."
+
+#: inc/options.php:445
+msgid "The Confection banner will not appear. Use the JavaScript function <code>confection.setConsent(2)</code> to start collecting data."
+msgstr "O banner do Confection não irá aparecer. Use a função JavaScript <code>confection.setConsent(2)</code> para começar a coletar dados."
+
+#: inc/options.php:448
+msgid "I want the banner to appear in the bottom left corner of the browser"
+msgstr "Quero que o banner apareça no canto inferior esquerdo do navegador"
+
+#: inc/options.php:452
+msgid "I want the banner to appear in the bottom right corner of the browser"
+msgstr "Quero que o banner apareça no canto inferior direito do navegador"
+
+#: inc/options.php:456
+msgid "I want the banner to appear in at the bottom of the browser, in the middle of the screen."
+msgstr "Quero que o banner apareça na parte de baixo do navegador, centralizado."
+
+#: inc/shortcodes.php:42
+msgid "This site isn’t collecting your personal information. Any information you submitted before opting out is still in our system. To manage this information, please "
+msgstr "Este site não está coletando suas informações pessoais. Qualquer informação que você tenha enviado anteriormente, ainda estará em nossos sistemas. Para gerenciar essas informações, por favor "
+
+#: inc/shortcodes.php:43
+msgid "The authors of this site care about your personal data. That’s why they use Confection. Our privacy-first data management app helps people like you take control of the information you share online."
+msgstr "Os criadores deste site se preocupam com seus dados pessoais. É por isso que eles usam Confection. Nosso aplicativo de gerenciamento de dados com foco em privacidade, ajuda pessoas como você a ter o controle sob as informações que você compartilha online."
+
+#: inc/shortcodes.php:44
+msgid "At the moment, this site would like permission to use basic data to improve the content it offers you. This would include information like your IP address. We won’t collect more sensitive information such as your name or email address without asking you first."
+msgstr "No momento, este site gostaria de sua permissão para usar dados básicos afim de melhorar o conteúdo que ele oferece. Isso inclui informações como seu endereço de IP. Nós não coletaremos dados mais sensíveis como seu nome ou endereço de email sem antes receber sua autorização."
+
+#: inc/shortcodes.php:45
+msgid "You’ve given this site permission to collect information like your IP address, name, and email."
+msgstr "Você deu permissão para este site coletar informações como seu endereço IP, nome e email."
+
+#: inc/shortcodes.php:46
+msgid "Collecting Basic Data"
+msgstr "Coletando Dados Básicos"
+
+#: inc/shortcodes.php:47
+msgid "Fully Authorized"
+msgstr "Totalmente Autorizado"
+
+#: inc/shortcodes.php:48
+msgid "Not Collecting Your Data"
+msgstr "Não Está Coletando Dados"
+
+#: inc/shortcodes.php:49
+msgid "Hi, it’s Confection again. We noticed that you’re about to share information like your name and email with this site. Do we have your permission to do so?"
+msgstr "Oi, é o Confection novamente. Percebemos que você está prestes a compartilhar informações como seu email e nome com este site. Nós temos permissão para fazer isso?"
+
+#: inc/shortcodes.php:50
+msgid "Learn More"
+msgstr "Saiba Mais"
+
+#: inc/shortcodes.php:51
+msgid "Accept"
+msgstr "Aceitar"
+
+#: inc/shortcodes.php:52
+msgid "Not now"
+msgstr "Agora não"
+
+#: inc/shortcodes.php:53
+msgid "Stop Collecting"
+msgstr "Para de Coletar"
+
+#: inc/shortcodes.php:54
+msgid "Resume Data Sharing"
+msgstr "Voltar a Compartilhar"
+
+#: inc/shortcodes.php:55
+msgid "Close"
+msgstr "Fechar"
+
+#: inc/shortcodes.php:56
+msgid "click here"
+msgstr "clique aqui"
+
